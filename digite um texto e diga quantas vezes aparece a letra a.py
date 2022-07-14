@@ -1,0 +1,5 @@
+print('{:=^90}'.format('digite um texto e veja quantas vezes aparece a letra a'))
+texto = str(input('digite aqui um texto: ')).lower().strip()
+print('o texto digitado contem {}, letras "a"'.format(texto.count('a')))
+print('o texto digitado tem a primeira letra "a" na posição, {}'.format(texto.find('a')+1))
+print('o texto digitado tem a ultima legra "a" na posição, {}'.format(texto.rfind('a')+1))

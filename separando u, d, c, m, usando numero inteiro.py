@@ -1,0 +1,12 @@
+print('{:=^90}'.format('digitar um numero deparar u,d,c,m '))
+num = int(input('digite um número de 0 a 9999: '))
+u = (num //1 % 10)
+d = (num //10 % 10)
+c = (num //100 % 10)
+m = (num //1000 % 10)
+print(' O número digitado é: {}, a sua unidade é: {}'.format(num, u))
+print(' O número digitado é: {}, a sua dezena  é: {}'.format(num, d))
+print(' O número digitado é: {}, a sua centena é: {}'.format(num, c))
+print(' O número digitado é: {}, a sua milhar  é: {}'.format(num, m))
+
+print('{:.^90}'.format('FINAL DO PROGRAMA'))
